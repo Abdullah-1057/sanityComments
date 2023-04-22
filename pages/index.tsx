@@ -5,7 +5,6 @@ import Header from "@/components/Header";
 import Link from "next/link";
 const inter = Inter({ subsets: ["latin"] });
 import { sanityClient, urlFor } from "../sanity";
-import post from "@/sanityyoutube/schemas/post";
 import { Post } from "../typings";
 interface Props {
   posts: [Post];
